@@ -1,1 +1,8 @@
 theme: jekyll-theme-hacker
+title: Zsecure
+description: Zsecure Cyber Security Blog
+twitter_username: zak_hax
+github_username: zsecure
+
+plugins: 
+ - jekyll-feed
