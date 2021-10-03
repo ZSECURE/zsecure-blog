@@ -25,7 +25,7 @@
     ```
     
 
-![_images/1/PowerShell.png](_images/1/PowerShell.png)
+![PowerShell.png](https://github.com/ZSECURE/zsecure-blog/blob/gh-pages/_images/1/PowerShell.png)
 
 [Enable Mailbox Auditing in Office 365 Users using PowerShell](https://o365reports.com/2020/01/21/enable-mailbox-auditing-in-office-365-powershell/)
 
