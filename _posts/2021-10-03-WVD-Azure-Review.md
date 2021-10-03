@@ -10,6 +10,7 @@ Windows Virtual Desktop (WVD)
 4. [Infrastructure - Azure Security Center, Secure Score, Best Practices](#4)
 5. [Networking - Reverse Connect, Service tags, Firewall](#5)
 6. [Data - Information Protection, Azure Disk Encryption](#6)
+
 ---
 
 ## Identity <a name="1"></a>
