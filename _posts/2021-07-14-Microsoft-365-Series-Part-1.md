@@ -25,7 +25,7 @@
     ```
     
 
-![PowerShell.png](https://github.com/ZSECURE/zsecure-blog/blob/gh-pages/_images/1/PowerShell.png)
+![PowerShell.png](https://raw.githubusercontent.com/ZSECURE/zsecure-blog/gh-pages/_images/1/PowerShell.png)
 
 [Enable Mailbox Auditing in Office 365 Users using PowerShell](https://o365reports.com/2020/01/21/enable-mailbox-auditing-in-office-365-powershell/)
 
@@ -94,7 +94,7 @@ Import-PSSession $O365Session
 Get-CASMailbox  | Select  Name,OwaEnabled,MapiEnabled,EwsEnabled,ActiveSyncEnabled,PopEnabled,ImapEnabled,smtpclientauthenticationdisabled | Out-GridView
 ```
 
-![_images/1/PowerShell2.png](_images/1/PowerShell2.png)
+![PowerShell2.png](https://raw.githubusercontent.com/ZSECURE/zsecure-blog/gh-pages/_images/1/PowerShell2.png)
 
 [Three ways to disable basic authentication and legacy protocols in Exchange Online](https://www.itpromentor.com/block-basic-auth/)
 
