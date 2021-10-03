@@ -29,7 +29,7 @@ plugins:
   - jekyll-feed
 
 # Custom variables
-owner : "zak_hax"
+owner : "zsecure"
 year : "2021"
 
 theme: jekyll-theme-hacker
