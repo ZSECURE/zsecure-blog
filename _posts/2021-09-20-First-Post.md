@@ -1,3 +1,7 @@
+---
+layout: post
+author: Zak
+---
 # WVD Azure Review
 
 ---
