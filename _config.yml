@@ -1,8 +1,37 @@
-theme: jekyll-theme-hacker
 title: Zsecure
-description: Zsecure Cyber Security Blog
+description: "Zsecure Cyber Security Blog"
+author:
+  name: "zak_hax"
+  email: "zak@zsecure.uk"
+  url: "https://zsecure.uk/zsecure-blog"
+
+baseurl: /
+
+source: .
+destination: ./_site
+permalink: /:title
+paginate: 3
+paginate_path: /page/:num/
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+future: true
+plugins:
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+
+# Custom variables
+owner : "zak_hax"
+year : "2021"
+
+theme: jekyll-theme-hacker
 twitter_username: zak_hax
 github_username: zsecure
-
-plugins: 
- - jekyll-feed
