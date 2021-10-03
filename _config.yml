@@ -31,6 +31,7 @@ plugins:
 # Custom variables
 owner : "zsecure"
 year : "2021"
+shell_name : "zsecure"
 
 theme: jekyll-theme-hacker
 twitter_username: zak_hax
