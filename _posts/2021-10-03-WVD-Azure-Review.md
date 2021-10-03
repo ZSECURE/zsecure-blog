@@ -1,24 +1,21 @@
----
-layout: post
----
 # WVD Azure Review
 
 ---
 
 Windows Virtual Desktop (WVD)
 
-## 6 Controls to check
+### 6 Controls to check
 
-1. Identity - Conditional Access, MEM support, MFA
-2. Session Host - Defender ATP, Policies
-3. Apps - Application Control, Applocker
-4. Infrastructure - Azure Security Center, Secure Score, Best Practices
-5. Networking - Reverse Connect, Service tags, Firewall
-6. Data - Information Protection, Azure Disk Encryption
+1. [Identity - Conditional Access, MEM support, MFA](#1)
+2. [Session Host - Defender ATP, Policies](#2)
+3. [Apps - Application Control, Applocker](#3)
+4. [Infrastructure - Azure Security Center, Secure Score, Best Practices](#4)
+5. [Networking - Reverse Connect, Service tags, Firewall](#5)
+6. [Data - Information Protection, Azure Disk Encryption](#6)
 
 ---
 
-## Identity
+## Identity <a name="1"></a>
 
 Security Controls and best practices
 
@@ -36,7 +33,7 @@ Windows 10 Enterprise (hybrud AAD) support GA
 
 https://aka.ms/mfawvd
 
-## Session Host
+## Session Host <a name="2"></a>
 
 Security Controls and best practices
 
@@ -68,7 +65,7 @@ Set time limit for active but idle remote desktop services sessions
 
 Set time limit for disconnected sessions (be careful of data loss)
 
-### Apps
+## Apps <a name="3"></a>
 
 Security Controls and best practices
 
@@ -82,7 +79,7 @@ Control what drivers and applications can run
 
 https://aka.ms/wvdappssec
 
-### Networking
+## Networking <a name="4"></a>
 
 Security Controls and best practices
 
@@ -102,7 +99,7 @@ Consider Azure Firewall for application-level protection with WindowsVirtualDesk
 
 https://aka.ms/wvdfirewall
 
-### Infrastructure
+## Infrastructure <a name="5"></a>
 
 Security Controls and best practices
 
@@ -120,7 +117,7 @@ Secure surrounding infrastructure with documented best practices
 
 https://aka.ms/azuresecurebp
 
-### Data
+## Data <a name="6"></a>
 
 Security Controls and best practices
 
